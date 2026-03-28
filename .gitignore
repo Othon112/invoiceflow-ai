@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Env files
+.env
+.env.*
+
+# Java / Maven / Quarkus (backend)
+backend/**/target/
+backend/.quarkus/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+
+# Logs
+*.log
+
+# General
+*.swp
+*.swo
